@@ -1,1 +1,21 @@
-<h1>hello world v2</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gradient Generator</h1>
+        <div class="gradient-preview" id="gradientPreview"></div>
+        <button class="generate-btn" id="generateBtn">Generate</button>
+        <div class="css-output">
+            <code id="cssCode">background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);</code>
+            <button class="copy-btn" id="copyBtn">Copy CSS</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
